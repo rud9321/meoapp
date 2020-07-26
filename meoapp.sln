@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meoapp", "meoapp\meoapp.csproj", "{C614E7C1-EA59-43D9-AF30-F91C31732093}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5CBD906A-7D03-4DD8-8EAB-40115A4C7DA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C614E7C1-EA59-43D9-AF30-F91C31732093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C614E7C1-EA59-43D9-AF30-F91C31732093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C614E7C1-EA59-43D9-AF30-F91C31732093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C614E7C1-EA59-43D9-AF30-F91C31732093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CBD906A-7D03-4DD8-8EAB-40115A4C7DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CBD906A-7D03-4DD8-8EAB-40115A4C7DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CBD906A-7D03-4DD8-8EAB-40115A4C7DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CBD906A-7D03-4DD8-8EAB-40115A4C7DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

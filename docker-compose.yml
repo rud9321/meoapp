@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  meoapp:
+    image: ${DOCKER_REGISTRY-}meoapp
+    #image: meoapp
+    build:
+      context: .
+      dockerfile: meoapp/Dockerfile
+
+  coreapi:
+    image: coreapi345
+    ports:
+      - 7777:80
